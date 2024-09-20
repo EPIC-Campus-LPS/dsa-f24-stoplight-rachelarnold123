@@ -1,0 +1,23 @@
+import RPi.GPIO as GPIO
+import time
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+for x in range(10):
+    GPIO.setup(22,GPIO.OUT)
+    print("Green on")
+    GPIO.output(22,GPIO.HIGH)
+    time.sleep(5)
+    print("Green off")
+    GPIO.output(22,GPIO.LOW)
+    GPIO.setup(17,GPIO.OUT)
+    print("Yellow on")
+    GPIO.output(17,GPIO.HIGH)
+    time.sleep(1)
+    print("Yellow off")
+    GPIO.output(17,GPIO.LOW)
+    GPIO.setup(4, GPIO.OUT)
+    print("Red On")
+    GPIO.output(4,GPIO.HIGH)
+    time.sleep(4)
+    print("Red Off")
+    GPIO.output(4,GPIO.LOW)
