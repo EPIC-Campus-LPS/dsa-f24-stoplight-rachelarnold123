@@ -1,0 +1,8 @@
+What is a Python library and how do you include one in your script?
+  A Python Library is how python works, its a dictionary for your computer. Everytime you ever write python, your computer uses the library. The library makes "print" print and makes "return" return.
+
+What does it mean for elements of a circuits to be in series vs. in parallel?
+  A series circuit connects through one flow of energy. Instead of having many wires to each pin, using rails connect all the circuits. A Parallel is the more common circuit as each componet can be controlled by one pin, each componet has its own flow of energy throught the pins. 
+
+Can you create a circuit of 3 light bulbs in series? Why or why not?
+  Yes you can create a circuit of 3 lightbulbs in a series, though you cannot controll which one lights up-as they all will- or how long each one stays lit up. 
